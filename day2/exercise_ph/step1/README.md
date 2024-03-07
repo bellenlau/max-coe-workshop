@@ -8,11 +8,11 @@ Perform a vc-relax calculation for CnSnI3  using the pw.x program.
 
    `calculation=""`
 
-2. Open `submit.slurm` and modify npw to use R&G on 4 MPIs:GPUs
+2. Open `submit.job` and modify npw to use R&G on 4 MPIs:GPUs
 	
 3. Submit the job file
 
-   `sbatch submit.slurm`
+   `sbatch submit.job`
 
    Check if convergence has been achieved.
 
